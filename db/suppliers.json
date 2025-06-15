@@ -1,0 +1,46 @@
+[
+  {
+    "name": "GetUrWingDingsHere",
+    "address": "123 Market St, Springfield, IL, 62704",
+    "products": [
+      "Frobnar",
+      "Jibber",
+      "Plonko",
+      "Frizzle",
+      "Snazzle",
+      "Fizzle",
+      "Snibble"
+    ],
+    "point_of_contact": "Ava Thompson",
+    "phone_number": "(312) 555-0198"
+  },
+  {
+    "name": "AllAboutWingDings",
+    "address": "456 Oak Ave, Madison, WI, 53703",
+    "products": [
+      "Blipzo",
+      "Wizzle",
+      "Greeble",
+      "Womble",
+      "Twizzle",
+      "Wobble"
+    ],
+    "point_of_contact": "Liam Carter",
+    "phone_number": "(608) 555-0246"
+  },
+  {
+    "name": "WingDingsRUs",
+    "address": "789 Pine Rd, Albany, NY, 12207",
+    "products": [
+      "Zantrix",
+      "Quizzle",
+      "Snorf",
+      "Zibble",
+      "Plink",
+      "Gribble",
+      "Plibble"
+    ],
+    "point_of_contact": "Maya Robinson",
+    "phone_number": "(518) 555-0372"
+  }
+]
