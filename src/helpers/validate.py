@@ -1,7 +1,7 @@
 from typing import List
 
-from src.models.supplier import Supplier
-from src.models.wingding import Wingding
+from models.supplier import Supplier
+from models.wingding import Wingding
 
 
 def validate_wingding_supplier(suppliers: List[Supplier], wingdings: List[Wingding]) -> bool:

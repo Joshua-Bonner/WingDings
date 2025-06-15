@@ -1,8 +1,8 @@
 import json
 from typing import List
 
-from src.models.supplier import Supplier
-from src.models.wingding import Wingding
+from models.supplier import Supplier
+from models.wingding import Wingding
 
 
 def read_in_wingdings(file_path) -> List[Wingding]:
