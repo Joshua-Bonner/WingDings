@@ -9,7 +9,8 @@ def main():
     wingdings.sort(key=lambda x: x.price, reverse=True)
     for wingding in wingdings:
         print(
-            f"{wingding.name} - ${wingding.price:.2f} - {'Out of Stock' if wingding.out_of_stock else 'In Stock'}"
+            f"{wingding.name} - ${wingding.price:.2f} - "
+            f"{'Out of Stock' if wingding.out_of_stock else 'In Stock'}"
         )
 
 

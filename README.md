@@ -6,6 +6,8 @@ The purpose of this project is to practice using various Python libraries and to
 - **Pydantic** for data validation and modeling
 - **pytest** for unit testing
 - **pipenv** for dependency management
+- **black** for code formatting
+- **flake8** for linting
 - **Git** for version control
 - And more!
 
@@ -20,6 +22,8 @@ WingDings/
 ├── Pipfile
 ├── Pipfile.lock
 ├── README.md
+├── setup.cfg
+├── pyproject.toml
 ```
 
 ## Features
@@ -33,7 +37,7 @@ WingDings/
 
 1. **Clone the repository:**
    ```
-   git clone <your-repo-url>
+   git clone https://github.com/Joshua-Bonner/WingDings.git
    cd WingDings
    ```
 
@@ -42,12 +46,33 @@ WingDings/
    pipenv install --dev
    ```
 
-3. **Run tests:**
+3. **Activate the virtual environment:**
+   ```
+   pipenv shell
+   ```
+
+4. **Run the application:**
+   You can run the main application script or any specific module you want to test. For example:
+   ```
+   python src/main.py
+   ```
+
+6. **Run tests:**
    ```
    pipenv run pytest -p no:cacheprovider
    ```
 
-4. **Explore the code and try out your own features!**
+5. **Format code with Black:**
+   ```
+   pipenv run black .
+   ```
+
+6. **Lint code:**
+   ```
+   pipenv run flake8 .
+   ```
+
+7. **Explore the code and try out your own features!**
 
 ## Why Wingdings?
 

@@ -14,7 +14,9 @@ class Wingding(BaseModel):
     )
     serial_num: NonNegativeInt = Field(
         default=00000000,
-        description="Serial number of the wingding, must be a positive integer greater than or equal to 0",
+        description=(
+            "Serial number of the wingding, must be a positive integer greater than or equal to 0"
+        ),
     )
     type: str = Field(
         default="",
