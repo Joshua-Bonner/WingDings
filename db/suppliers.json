@@ -1,7 +1,12 @@
 [
   {
     "name": "GetUrWingDingsHere",
-    "address": "123 Market St, Springfield, IL, 62704",
+    "address": {
+      "street": "123 Market St",
+      "city": "Springfield",
+      "state": "IL",
+      "zip_code": "62704"
+    },
     "products": [
       "Frobnar",
       "Jibber",
@@ -16,7 +21,12 @@
   },
   {
     "name": "AllAboutWingDings",
-    "address": "456 Oak Ave, Madison, WI, 53703",
+    "address": {
+      "street": "456 Oak Ave",
+      "city": "Madison",
+      "state": "WI",
+      "zip_code": "53703"
+    },
     "products": [
       "Blipzo",
       "Wizzle",
@@ -30,7 +40,12 @@
   },
   {
     "name": "WingDingsRUs",
-    "address": "789 Pine Rd, Albany, NY, 12207",
+    "address": {
+      "street": "789 Pine Rd",
+      "city": "Albany",
+      "state": "NY",
+      "zip_code": "12207"
+    },
     "products": [
       "Zantrix",
       "Quizzle",

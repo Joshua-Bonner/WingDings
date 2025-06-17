@@ -9,21 +9,27 @@ The purpose of this project is to practice using various Python libraries and to
 - **black** for code formatting
 - **flake8** for linting
 - **Git** for version control
-- And more!
+- **Docker** for containerization
+- And more to come!
 
 ## Project Structure
 
 ```
 WingDings/
+├── db/
 ├── src/
 │   ├── helpers/
 │   ├── models/
+│   ├── main.py
 ├── tests/
+├── .gitignore
+├── Dockerfile
 ├── Pipfile
 ├── Pipfile.lock
-├── README.md
-├── setup.cfg
 ├── pyproject.toml
+├── README.md
+├── requirements.txt
+├── setup.cfg
 ```
 
 ## Features
